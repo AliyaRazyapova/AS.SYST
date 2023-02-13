@@ -2,13 +2,22 @@ div{
     display: block;
 }
 
-.all_str{
+.transition{
+    width: 100%;
+    height: 3.307vw;
+    background: linear-gradient(90deg, #82E70C 47.62%, #3CC21E 98.51%);
+}
+
+.all_str_1, .all_str_2, .all_str_3{
     max-width: 100%;
-    min-width: 960px;
-    background-image: url(image/background_1.jpg);
+    min-width: 710px;
     background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.all_str_1{
+    background-image: url(image/bg_1.jpg);
 }
 
 .header{
@@ -160,16 +169,18 @@ div{
 .content_button{
     display: flex;
     flex-direction: row;
-/*    align-content: center;*/
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     
     margin-top: 3.968254vw;
     margin-right: 64.2857vw;
-    margin-bottom: 9.92065vw;
+    margin-bottom: 8vw;
 
     width: 29.101vw;
     
     background: #1B1C37;
-    border-radius: 12px;
+    border-radius: 0.79365vw;
 }
 
 .content_button_text{
@@ -181,21 +192,19 @@ div{
     color: #FFFFFF;
     
     padding-top: 1.0582vw;
-    padding-left: 2.97619vw;
     padding-bottom: 1.0582vw;
 
 }
 
 .right-arrow {
     position: relative;
-    width: 1.1688vw;
-    height: 1.1688vw;
+    width: 1.4332vw;
+    height: 1.4332vw;
     background-color: #1B1C37;
     border-radius: 50%;
     cursor: pointer;
-    border: 0.1653436vw solid #FFFFFF;
+    border: 0.165344vw solid #FFFFFF;
     margin-left: 0.804891vw;
-    margin-top: 1.53241vw;
 }
 
 .right-arrow::before {
@@ -203,17 +212,117 @@ div{
     content: '';
     left: 32%;
     top: 32%;
-    Width:3.81px;
-    Height: 3.81px;
-    border-top: 2.5px solid #FFFFFF
+    Width: 0.251984vw;
+    Height: 0.251984vw;
+    border-top: 0.165344vw solid #FFFFFF
  !important;
-    border-right: 2.5px solid #FFFFFF !important;
+    border-right: 0.165344vw solid #FFFFFF !important;
     transform: rotate(45deg);
 }
 
-.transition_1{
-    width: 100%;
-    height: 50px;
+.all_str_2{
+    background-image: url(image/bg_2.jpg);
+}
 
-    background: linear-gradient(90deg, #82E70C 47.62%, #3CC21E 98.51%);
+.header_2, .block_1_header, .block_1_text, .block_2_header, .block_2_text, .block_3_header, .block_3_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.block_1_text, .block_2_text, .block_3_text{    
+    font-weight: 400;
+    font-size: 1.9845vw;
+    line-height: 2.9765vw;
+    text-align: justify;
+
+    color: #5F6073;
+}
+
+.block_1_text, .block_3_text{
+    padding-right: 6.61376vw;
+    padding-left: 56.2169vw;
+}
+
+.block_1_header, .block_2_header, .block_3_header{
+    font-weight: 600;
+    font-size: 3.307vw;
+    line-height: 4.961vw;
+    
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.block_1_header, .block_3_header{
+    text-align: right;
+}
+
+.header_2{
+    padding-top: 5.953vw;
+    padding-left: 25.794vw;
+    
+    font-weight: 600;
+    font-size: 3.9686vw;
+    line-height: 7.937vw;
+
+    background: linear-gradient(90deg, #82E80C 0%, #3EC31E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.block_1_header{
+    padding-right: 6.614vw;
+    padding-top: 3vw;
+
+    background: linear-gradient(89.98deg, #4FCD1A 21.95%, #3DC31E 102.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_1_text{
+    padding-top: 2.77778vw;
+    padding-bottom: 6.019vw;
+}
+
+.block_2_header{
+    padding-top: 7.937vw;
+    padding-left: 6.614vw;
+    padding-right: 54.2328vw;
+    
+    text-align: justify;
+
+    background: linear-gradient(90deg, #35BE1F -3.54%, #6DD80D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_2_text{
+    padding-left: 6.614vw;
+    padding-top: 2.91005vw;
+    padding-right: 54.2328vw;
+    padding-bottom: 5.35714vw;
+}
+
+.block_3_header{
+    padding-right: 6.614vw;
+    padding-top: 3.25vw;
+    
+    font-weight: 600;
+    font-size: 3.306875vw;
+    line-height: 4.96032vw;
+    text-align: right;
+
+    background: linear-gradient(90.18deg, #35BE1F 0.12%, #6CD80E 102.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_3_text{
+    padding-top: 2.6455vw;
+    padding-bottom: 14.2196vw;
+}
+
+.all_str_3{
+    background-image: url(image/bg_3.jpg);
 }
