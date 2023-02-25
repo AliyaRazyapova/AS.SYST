@@ -8,10 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="witdh=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/media.css">
+    <link rel="stylesheet" href="static/mobile_str_3.css">
+    <link rel="stylesheet" href="static/mobile_str_4.css">
+    <script src="script.js"></script>
     <title>AS.SYST</title>
 </head>
 <body>
@@ -31,6 +37,7 @@
                         <a class="FAQ_header">FAQ</a>
                         <a class="main_header_top"></a>
                         <a class="main_header">Главная</a>
+                        <a class="results_header_main">Результаты</a>
                         <a class="main_header_bottom"></a>
                     </div>
                 </div>
@@ -132,7 +139,7 @@
                 <div class="content_4_one">
                     <div class="content_4_one_1">
                         <div class="content_4_one_1_img">
-                            <img style="width: 4.3655vw;" src="image/pc_4.png">
+                            <img style="width: 4.3655vw;" src="static/img/pc_4.png">
                         </div>
                         <div class="content_4_one_1_text">
                             <div class="content_4_one_1_text_1">
@@ -165,7 +172,7 @@
 -->
                 <div class="content_4_two_three">
                     <div class="content_4_two_three_img" id="content_4_two_three">
-                        <img src="image/pc_4_2.png">
+                        <img class="img_pc_4_2" src="static/img/pc_4_2.png">
 <!--
                         <div class="content_4_two">
                             <div class="content_4_two_text_1">
@@ -183,11 +190,9 @@
                             <div class="content_4_three_text">
                                 Анализ успешно выполнен!
                             </div>
-                            <button>
-                                <div class="content_4_three_button">
-                                    Показать результаты
-                                </div>
-                            </button>
+                            <div class="content_4_three_button">
+                                Показать результаты
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,12 +210,10 @@
                         Полная версия продукта будет выпущена в 2023 году в формате приложения на платформы iOS и Android, а также операционные системы iMac и Windows.
                     </div>
                 </div>
-                <div class="img_5">
-                    <img width="478px" src="/image/pc_5.jpg">
-                </div>
+                <img class="img_5" width="31.61375vw" src="/main/static/img/pc_5.jpg">
             </div>
             <div class="form_block">
-                <form>
+                <form method="post">
                     <div class="tab_name_email">
                         <div class="tab_name">
                             <div class="tab_name_header">
@@ -230,7 +233,18 @@
                             <div class="tab_appeal_header">
                                 Ваше обращение
                             </div>
-                            <input class="tab_appeal_form" name="appeal" type="text" placeholder="Введите Ваш вопрос или сообщение">
+                            <div class="tab_appeal_header_1" style="display: flex; flex-direction: column;">
+                                <textarea class="tab_appeal_form" id="text" name="appeal" placeholder="Введите Ваш вопрос или сообщение"></textarea>
+                                <div class="tab_appeal_header_2">
+                                    <img class="link_1" onclick="openUrlPopup()" src="static/img/link_1.png">
+                                    <img class="link_2" src="static/img/link_2.png" onclick="toggleBold()">
+                                    <img class="link_3" src="static/img/link_3.png" onclick="toggleUnderline()">
+                                    <img class="link_4" onclick="toggleItalic()" src="static/img/link_4.png">
+                                    <img class="link_5" onclick="addBulletPoint()" src="static/img/link_5.png">
+                                    <img class="link_6" src="static/img/link_6.png">
+                                    <img class="link_7" src="static/img/link_7.png">
+                                </div>
+                            </div>
                         </div>
                         <div class="tab_phone_button">
                             <div class="tab_phone">
@@ -253,6 +267,261 @@
             </div>
             <div class="footer_text_2">
                 ООО “ААС”
+            </div>
+        </div>
+    </div>
+    <div class="mobile">
+        <div class="mobile_str_1">
+            <div class="mobile_header">   
+                <img class="mobile_home" src="static/img/mobile_1.png">
+                <div class="mobile_header_logo">
+                    <div class="mobile_header_logo_img">
+                        <div class="mobile_header_logo_img_1"></div>
+                        <div class="mobile_header_logo_img_2"></div>
+                        <div class="mobile_header_logo_img_3"></div>
+                    </div>
+                </div>
+                <div class="mobile_header_logo_text">AS.SYST</div>
+            </div>
+            <div class="mobile_content_1">
+                <img class="mobile_content_1_header" src="static/img/mobile_2.png">
+                <div class="mobile_content_1_text_1">
+                    <img class="mobile_content_1_text_1_img" src="static/img/mobile_3.png">
+                    <div class="mobile_content_1_text_1_text">
+                        Эмоция — выразительное движение лица и голоса в сопровождении душевных переживаний на фоне смены функционального состояния организма.
+                    </div>
+                </div>
+                <div class="mobile_content_1_text_2">
+                    Платформа AS.SYST позволяет оценить эффективность командной работы, эмоциональный фон и гибкие навыки участников коллективного рабочего процесса.
+                </div>
+                <img class="mobile_content_1_img" src="static/img/mobile_4.png">
+                <div class="mobile_content_1_text_3">
+                    Стало интересно? Заходи и будь с нами!
+                </div>
+                <div class="mobile_content_1_button">
+                    <div class="mobile_content_1_button_content">
+                        <div class="mobile_content_1_button_content_text">
+                            Попробовать бесплатно
+                        </div>
+                        <div class="mobile_content_1_button_content_img">
+                            <div class="mobile_right-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_str_2">
+            <div class="mobile_header_2">
+                Принцип работы AS.SYST
+            </div>
+            <div class="mobile_content_2">
+                <div class="mobile_content_2_1">
+                    <div class="mobile_content_2_1_header">
+                        1. Снимите видео
+                    </div>
+                    <div class="mobile_content_2_1_img">
+                        <img class="mobile_content_2_1_img_photo" src="static/img/mobile_5.png">
+                        <div class="mobile_content_2_1_img_circles">
+                            <div class="mobile_content_2_1_img_circle_1"></div>
+                            <div class="mobile_content_2_1_img_circle_2"></div>
+                            <div class="mobile_content_2_1_img_circle_3"></div>
+                            <div class="mobile_content_2_1_img_circle_4"></div>
+                            <div class="mobile_content_2_1_img_circle_5"></div>
+                            <div class="mobile_content_2_1_img_circle_6"></div>
+                            <div class="mobile_content_2_1_img_circle_7"></div>
+                            <div class="mobile_content_2_1_img_circle_8"></div>
+                        </div>
+                    </div>
+                    <div class="mobile_content_2_1_text">
+                        <div class="mobile_content_2_1_text_1">
+                            Для этого Вам понадобится камера, будь то мобильный телефон или любое другое устройство.
+                        </div>
+                        <div class="mobile_content_2_1_text_2">
+                            Также, не забудьте про хорошее освещение!
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile_content_2_2">
+                    <div class="mobile_content_2_2_header">
+                        2. Загрузите видео в AS.SYST
+                    </div>
+                    <div class="mobile_content_2_2_img">
+                        <img class="mobile_content_2_2_img_photo" src="static/img/mobile_6.png">
+                        <div class="mobile_content_2_2_img_circles">
+                            <div class="mobile_content_2_2_img_circle_1"></div>
+                            <div class="mobile_content_2_2_img_circle_2"></div>
+                            <div class="mobile_content_2_2_img_circle_3"></div>
+                            <div class="mobile_content_2_2_img_circle_4"></div>
+                            <div class="mobile_content_2_2_img_circle_5"></div>
+                        </div>
+                    </div>
+                    <div class="mobile_content_2_2_text">
+                        Авторизуйтесь на платформе, используя сайт или мобильное приложение,  войдите в свой личный кабинет и загрузите видео.
+                    </div>
+                </div>
+                <div class="mobile_content_2_3">
+                    <div class="mobile_content_2_3_header">
+                        3. Запустите анализ
+                    </div>
+                    <div class="mobile_content_2_3_img">
+                        <img class="mobile_content_2_3_img_photo" src="static/img/mobile_7.png">
+                        <div class="mobile_content_2_3_img_circles">
+                            <div class="mobile_content_2_3_img_circle_1"></div>
+                            <div class="mobile_content_2_3_img_circle_2"></div>
+                            <div class="mobile_content_2_3_img_circle_3"></div>
+                            <div class="mobile_content_2_3_img_circle_4"></div>
+                            <div class="mobile_content_2_3_img_circle_5"></div>
+                        </div>
+                    </div>
+                    <div class="mobile_content_2_3_text">
+                        Алгоритмы нейросети AS.SYST проанализируют Ваше видео и подготовят результат об эффективности проведённой работы.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_str_3">
+            <div class="mobile_header_3">
+                <div class="mobile_header_3_circles">
+                    <div class="mobile_header_3_circle_1"></div>
+                    <div class="mobile_header_3_circle_2"></div>
+                    <div class="mobile_header_3_circle_3"></div>
+                    <div class="mobile_header_3_circle_4"></div>
+                    <div class="mobile_header_3_circle_5"></div>
+                    <div class="mobile_header_3_circle_6"></div>
+                    <div class="mobile_header_3_circle_7"></div>
+                    <div class="mobile_header_3_circle_8"></div>
+                    <div class="mobile_header_3_circle_9"></div>
+                    <div class="mobile_header_3_circle_10"></div>
+                    <div class="mobile_header_3_circle_11"></div>
+                    <div class="mobile_header_3_circle_12"></div>
+                </div>
+                <div class="mobile_header_3_text">
+                    Преимущества AS.SYST
+                </div>
+            </div>
+            <div class="mobile_content_3">
+                <div class="mobile_content_3_1">
+                    <div class="mobile_content_3_1_text">
+                       1. Высокоточная аналитика поведения сотрудников без применения Вами дополнительных усилий. 
+                    </div>
+                    <div class="mobile_content_3_1_img_bg">
+                        <img src="static/img/mobile_8.png" class="mobile_content_3_1_img">
+                    </div>
+                    <div class="mobile_content_3_1_1_circles">
+                        <div class="mobile_content_3_1_1_circle_1"></div>
+                        <div class="mobile_content_3_1_1_circle_2"></div>
+                        <div class="mobile_content_3_1_1_circle_3"></div>
+                        <div class="mobile_content_3_1_1_circle_4"></div>
+                        <div class="mobile_content_3_1_1_circle_5"></div>
+                        <div class="mobile_content_3_1_1_circle_6"></div>
+                        <div class="mobile_content_3_1_1_circle_7"></div>
+                        <div class="mobile_content_3_1_1_circle_8"></div>
+                    </div>
+                    <div class="mobile_content_3_1_lines">
+                        <div class="mobile_content_3_1_line_1"></div>
+                        <div class="mobile_content_3_1_line_2"></div>
+                        <div class="mobile_content_3_1_line_3"></div>
+                        <div class="mobile_content_3_1_arrow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_str_4">
+            <div class="mobile_content_3_circle">
+                <div class="mobile_content_3_1_2_circles">
+                    <div class="mobile_content_3_1_2_circle_1"></div>
+                    <div class="mobile_content_3_1_2_circle_2"></div>
+                    <div class="mobile_content_3_1_2_circle_3"></div>
+                    <div class="mobile_content_3_1_2_circle_4"></div>
+                    <div class="mobile_content_3_1_2_circle_5"></div>
+                    <div class="mobile_content_3_1_2_circle_6"></div>
+                    <div class="mobile_content_3_1_2_circle_7"></div>
+                    <div class="mobile_content_3_1_2_circle_8"></div>
+                </div>
+                <div class="mobile_content_3_2">
+                    <div class="mobile_content_3_2_img_bg">
+                        <img src="static/img/mobile_9.png" class="mobile_content_3_2_img">
+                    </div>
+                    <div class="mobile_content_3_2_text">
+                       2. Устранение влияния субъективности при оценке поведения сотрудников за счёт стандартизации оценки. 
+                    </div>
+                    <div class="mobile_content_3_2_1_circles">
+                        <div class="mobile_content_3_2_1_circle_1"></div>
+                        <div class="mobile_content_3_2_1_circle_2"></div>
+                        <div class="mobile_content_3_2_1_circle_3"></div>
+                        <div class="mobile_content_3_2_1_circle_4"></div>
+                        <div class="mobile_content_3_2_1_circle_5"></div>
+                        <div class="mobile_content_3_2_1_circle_6"></div>
+                        <div class="mobile_content_3_2_1_circle_7"></div>
+                        <div class="mobile_content_3_2_1_circle_8"></div>
+                    </div>
+                    <div class="mobile_content_3_2_lines">
+                        <div class="mobile_content_3_2_line_1"></div>
+                        <div class="mobile_content_3_2_line_2"></div>
+                        <div class="mobile_content_3_2_line_3"></div>
+                        <div class="mobile_content_3_2_arrow"></div>
+                    </div>
+                    <div class="mobile_content_3_2_2_circles">
+                        <div class="mobile_content_3_2_2_circle_1"></div>
+                        <div class="mobile_content_3_2_2_circle_2"></div>
+                        <div class="mobile_content_3_2_2_circle_3"></div>
+                        <div class="mobile_content_3_2_2_circle_4"></div>
+                        <div class="mobile_content_3_2_2_circle_5"></div>
+                        <div class="mobile_content_3_2_2_circle_6"></div>
+                        <div class="mobile_content_3_2_2_circle_7"></div>
+                        <div class="mobile_content_3_2_2_circle_8"></div>
+                    </div>
+                </div>
+                <div class="mobile_content_3_3">
+                    <div class="mobile_content_3_3_text">
+                        3. Создание базы рекомендаций общего психологического и профессионального характера социологами и психологами.
+                    </div>
+                    <div class="mobile_content_3_3_img_bg">
+                        <img src="static/img/mobile_10.png" class="mobile_content_3_3_img">
+                    </div>
+                    <div class="mobile_content_3_3_1_circles">
+                        <div class="mobile_content_3_3_1_circle_1"></div>
+                        <div class="mobile_content_3_3_1_circle_2"></div>
+                        <div class="mobile_content_3_3_1_circle_3"></div>
+                        <div class="mobile_content_3_3_1_circle_4"></div>
+                        <div class="mobile_content_3_3_1_circle_5"></div>
+                        <div class="mobile_content_3_3_1_circle_6"></div>
+                        <div class="mobile_content_3_3_1_circle_7"></div>
+                        <div class="mobile_content_3_3_1_circle_8"></div>
+                        <div class="mobile_content_3_3_1_circle_9"></div>
+                        <div class="mobile_content_3_3_1_circle_10"></div>
+                    </div>
+                    <div class="mobile_content_3_3_lines">
+                        <div class="mobile_content_3_3_line_1"></div>
+                        <div class="mobile_content_3_3_line_2"></div>
+                        <div class="mobile_content_3_3_line_3"></div>
+                        <div class="mobile_content_3_3_arrow"></div>
+                    </div>
+                    <div class="mobile_content_3_3_2_circles">
+                        <div class="mobile_content_3_3_2_circle_1"></div>
+                        <div class="mobile_content_3_3_2_circle_2"></div>
+                        <div class="mobile_content_3_3_2_circle_3"></div>
+                        <div class="mobile_content_3_3_2_circle_4"></div>
+                        <div class="mobile_content_3_3_2_circle_5"></div>
+                        <div class="mobile_content_3_3_2_circle_6"></div>
+                        <div class="mobile_content_3_3_2_circle_7"></div>
+                        <div class="mobile_content_3_3_2_circle_8"></div>
+                    </div>
+                    <div class="mobile_content_3_3_2_circles">
+                    </div>
+                </div>
+                <div class="mobile_content_3_4">
+                    <div class="mobile_content_3_4_img_bg">
+                        <img src="static/img/mobile_11.png" class="mobile_content_3_4_img">
+                    </div>
+                    <div class="mobile_content_3_4_text">
+                        4. Инновационный подход к поиску и решению проблемы продуктивности в коллективной работе.     
+                    </div>
+                    <img src="static/img/mobile_12.png" style="width: 100%; margin-top: 30px;" class="mobile_content_3_4_circles">
+                </div>
+                    <div class="mobile_header_4">
+                        Запустите AS.SYST прямо сейчас! *
+                    </div>
+                </div>
             </div>
         </div>
     </div>

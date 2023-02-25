@@ -1,0 +1,22 @@
+.mobile_header_4
+{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+/*    display: flex;*/
+/*    align-items: center;*/
+    
+    margin-left: 30px;
+    margin-right: 163px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+
+    color: #1B1C37;
+}
+
+.mobile_str_4
+{
+    background: red;
+}
