@@ -36,12 +36,6 @@ div{
     border-radius: 0.992065vw;
 }
 
-.link_header_content_center
-{
-/*    display: flex;*/
-/*    flex-direction: row;*/
-}
-
 .text_logo, .FAQ_header, .main_header, .results_header_main{
     position: absolute;
     
@@ -890,7 +884,7 @@ div#content_4_two_three{
 
     color: #FF9900;
     
-    margin-left: 1139px;
+    margin-left: 75.331vw;
     margin-top: 1.521165vw;
     margin-bottom: 1.521165vw;
     

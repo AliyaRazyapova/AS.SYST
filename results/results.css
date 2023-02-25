@@ -1,0 +1,112 @@
+.header{
+    padding-top: 3%;    
+}
+
+.header_content {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1.001vw;
+    position: relative;
+    height: 4.762vw;
+    background: white;
+    
+    box-shadow: 8.66007px 3.60836px 72.1672px rgba(0, 0, 0, 0.18);
+    border-radius: 0.992065vw;
+}
+
+.text_logo, .FAQ_header, .main_header, .results_header{
+    position: absolute;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.text_logo
+{
+    margin-left: 7.8704vw;
+    margin-top: 1.65344vw;
+    margin-bottom: 1.65344vw;
+    
+    font-weight: 500;
+    font-size: 1.32275vw;
+    line-height: 1.98413vw;
+
+    color: #1B1C37;
+}
+
+.FAQ_header, .main_header
+{   
+    font-weight: 600;
+    font-size: 1.14551vw;
+    line-height: 1.719575vw;
+
+    color: #000000; 
+}
+
+.FAQ_header
+{
+    margin-left: 31.4815vw;
+    margin-top: 1.521165vw;
+    margin-bottom: 1.521165vw;
+}
+
+.main_header
+{
+    margin-left: 40.07935vw;
+    margin-top: 1.521165vw;
+    margin-bottom: 1.521165vw;
+}
+
+.results_header
+{
+    font-weight: 600;
+    font-size: 1.14551vw;
+    line-height: 1.719575vw;
+
+    color: #FF9900;
+    
+    margin-left: 75.331vw;
+    margin-top: 1.521165vw;
+    margin-bottom: 1.521165vw;
+}
+
+.img_logo_1, .img_logo_2, .img_logo_3{
+    background: linear-gradient(90deg, #35BE1F 0%, #6ED90B 100%);
+    
+    border-radius: 50%;
+        
+    position: absolute;
+}
+
+.img_logo_1{
+    left: 5.51%;
+    right: 93.5%;
+    top: 32.92%;
+    bottom: 49.15%;
+}
+
+.img_logo_2{
+    left: 4.85%;
+    right: 94.54%;
+    top: 51.72%;
+    bottom: 37.18%;
+}
+
+.img_logo_3{
+    left: 5.84%;
+    right: 93.65%;
+    top: 57.7%;
+    bottom: 32.93%;
+}
+
+.results_header_top, .results_header_bottom{
+    border: 0.198413vw solid #FF784C;
+    
+    display: block;
+    width: 6.614vw;
+    margin-left: 75.331vw;
+}
+
+.results_header_bottom{
+    margin-top: 4.3655vw;
+}
