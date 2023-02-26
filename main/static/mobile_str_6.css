@@ -1,0 +1,142 @@
+@media screen and (max-width:710px)
+{
+    .mobile_str_6
+    {
+        margin: 0 30px;
+    }
+
+    .mobile_6_header, .mobile_6_content_text
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        line-height: 20px;
+
+        text-align: justify;
+
+        color: #5F6073;
+    }
+
+    .mobile_6_header
+    {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .mobile_6_content_text
+    {
+        font-weight: 400;
+        font-size: 16px;
+
+        margin-top: 20px;
+        margin-right: 130px;
+        margin-bottom: 10px;
+    }
+
+    .mobile_tab_header
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: right;
+
+        color: #4DCB1C; 
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mobile_tab_name_form, .mobile_tab_appeal_form, .mobile_tab_email_form, .mobile_tab_phone_form
+    {
+        width: 100%;
+
+        background: #EDEEFF;
+        border-radius: 10px;
+    }
+
+    .mobile_tab_name_form, .mobile_tab_appeal_form, .mobile_tab_email_form, .mobile_tab_phone_form
+    {
+        height: 40px;
+        width: 100%;
+        border: none;
+    }
+
+    .mobile_tab_appeal_form_1
+    {
+        height: 120px;
+        width: 100%;
+
+        background: #EDEEFF;
+        border: none;
+    }
+
+    .mobile_tab_appeal_form
+    {
+        height: 160px;
+    }
+
+    .mobile_tab_name_form::placeholder, .mobile_tab_appeal_form_1::placeholder, .mobile_tab_email_form::placeholder, .mobile_tab_phone_form::placeholder
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #5F6073;
+
+        padding: 20px 13px;
+    }
+
+    .mobile_tab_button
+    {   
+        background: #1B1C37;
+        border-radius: 10px;
+
+        width: 103%;
+
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        padding: 8.5px 85px;
+
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .mobile_link_1, .mobile_link_2, .mobile_link_3, .mobile_link_4, .mobile_link_5, .mobile_link_6, .mobile_link_7
+    {
+        margin: 8px 0;
+
+        height: 14px;
+        width: 14px;
+    }
+
+    .mobile_link_1
+    {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .mobile_link_3
+    {
+        margin: 8px 13px;
+    }
+
+    .mobile_link_5
+    {
+        margin: 8px 10px;
+    }
+
+    .mobile_link_7
+    {
+        margin-left: 11.6px;
+    }
+}

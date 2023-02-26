@@ -855,8 +855,8 @@
     
     .mobile_content_3_circle{
         background-image: url(img/mobile_bg_2.png);
-/*        height: 700px;*/
-        background-position: 40% 30%;
+        background-position: 60% 125%;
         background-repeat: no-repeat;
+        min-height: 900px;
     }
 }

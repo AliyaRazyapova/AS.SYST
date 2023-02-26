@@ -1,22 +1,220 @@
-.mobile_header_4
+@media screen and (max-width:710px)
 {
-    font-family: 'PT Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    .mobile_header_4
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
 
-/*    display: flex;*/
-/*    align-items: center;*/
-    
-    margin-left: 30px;
-    margin-right: 163px;
-    margin-top: 45px;
-    margin-bottom: 100px;
+        margin-left: 30px;
+        margin-right: 163px;
+        margin-top: 45px;
+        padding-bottom: 110px;
 
-    color: #1B1C37;
-}
+        color: #1B1C37;
+    }
 
-.mobile_str_4
-{
-    background: red;
+    .mobile_str_4
+    {
+        background: linear-gradient(90deg, #82E70C 47.62%, #3CC21E 98.51%);
+    }
+
+    .mobile_content_4_one_1{
+        height: 175px;
+
+        margin-left: 30px;
+        margin-right: 30px;
+
+        background: #1B1C37;
+        border-radius: 50px;
+    }
+
+    .mobile_content_4_one_1_img{  
+        height: 22.5px;
+        width: 22.5px;
+
+        padding-top: 64px;
+        padding-left: 145px;
+        padding-right: 145px;
+    }
+
+    .mobile_content_4_one_1_text_1{    
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+
+        color: #FFFFFF;
+
+        padding-left: 109px;
+        padding-right: 109px;
+        padding-bottom: 64px;
+    }
+
+    .mobile_content_4_one_2
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile_content_4_one_2_line
+    {
+        width: 90px;
+        border: 2px solid #1B1C37;
+
+        margin-top: 15px;
+    }
+
+    .mobile_content_4_one_2_1, .mobile_content_4_one_2_2, .mobile_content_4_one_2_3
+    {
+        margin-left: 30px;
+    }
+
+    .mobile_content_4_one_2_3
+    {
+        margin-right: 30px;
+    }
+
+    .mobile_content_4_one_2_header, .mobile_content_4_one_2_text, .mobile_content_4_one_3
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        line-height: 20px;
+        text-align: center;
+        color: #1B1C37;
+
+        margin-top: 15px;
+    }
+
+    .mobile_content_4_one_2_header
+    {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .mobile_content_4_one_2_text, .mobile_content_4_one_3
+    {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .mobile_content_4_one_3
+    {
+        margin-top: 60px;
+        margin-left: 122px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    div#mobile_content_4_two_three{
+        position: relative;
+
+        background: #1B1C37;
+        border-radius: 1.98413vw;
+    }.mobile_content_4_two{
+        position: absolute;
+        top: 0.00661376vw;
+    }
+
+
+    .mobile_content_4_two_text_1, .mobile_content_4_two_text_2, .mobile_content_4_two_text_3{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 34.92065vw;
+    }
+
+    .mobile_content_4_two_text_1{
+        font-size: 1.32275vw;
+
+        color: #50CD19;
+
+        margin-top: 17.19575vw;
+        margin-left: 34.92065vw;
+    }
+
+    .mobile_content_4_two_text_2, .mobile_content_4_two_text_3{
+        color: #FFFFFF;
+    }
+
+    .mobile_content_4_two_text_2{
+        font-size: 0.992065vw;
+
+        margin-left: 36.37565vw;
+    }
+
+    .mobile_content_4_two_text_3{
+        font-size: 1.0582vw;
+
+        margin-top: 7.9365vw;    
+        margin-left: 38.6905vw;
+    }
+
+    .mobile_content_4_two_three{
+        margin-top: 3.968255vw;
+        margin-left: 6.61376vw;
+        margin-right: 6.61376vw;
+        margin-bottom: 5.95238vw;    
+    }
+
+    div#mobile_content_4_two_three{
+        position: relative;
+
+        background: #1B1C37;
+        border-radius: 1.98413vw;
+    }.mobile_content_4_three{
+        position: absolute;
+        top: 0.00661376vw;
+    }
+
+    .mobile_content_4_three_text{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.98413vw;
+
+        color: #FFFFFF;  
+
+        margin-left: 28.24075vw;
+        margin-top: 17.2619vw;
+    }
+
+    .mobile_content_4_three_button{
+        background: #50CD19;
+        border-radius: 1.32275vw;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.190475vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #FFFFFF;
+
+        margin-left: 33.73015vw;
+        margin-top: 2.18254vw;
+
+        width: 17.659vw;
+        height: 3.9685vw;
+    }
 }
