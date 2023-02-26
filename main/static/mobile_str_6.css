@@ -2,14 +2,14 @@
 {
     .mobile_str_6
     {
-        margin: 0 30px;
+        margin: 0 7.692307vw;
     }
 
     .mobile_6_header, .mobile_6_content_text
     {
         font-family: 'PT Sans', sans-serif;
         font-style: normal;
-        line-height: 20px;
+        line-height: 5.1282vw;
 
         text-align: justify;
 
@@ -19,17 +19,17 @@
     .mobile_6_header
     {
         font-weight: 700;
-        font-size: 24px;
+        font-size: 2.974359vw;
     }
 
     .mobile_6_content_text
     {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 4.102564vw;
 
-        margin-top: 20px;
-        margin-right: 130px;
-        margin-bottom: 10px;
+        margin-top: 5.1282vw;
+        margin-right: 33.33vw;
+        margin-bottom: 2.564102vw;
     }
 
     .mobile_tab_header
@@ -37,14 +37,14 @@
         font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 4.615384vw;
+        line-height: 5.897435vw;
         text-align: right;
 
         color: #4DCB1C; 
 
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin-top: 5.1282vw;
+        margin-bottom: 2.564102vw;
     }
 
     .mobile_tab_name_form, .mobile_tab_appeal_form, .mobile_tab_email_form, .mobile_tab_phone_form
@@ -52,19 +52,19 @@
         width: 100%;
 
         background: #EDEEFF;
-        border-radius: 10px;
+        border-radius: 2.564102vw;
     }
 
     .mobile_tab_name_form, .mobile_tab_appeal_form, .mobile_tab_email_form, .mobile_tab_phone_form
     {
-        height: 40px;
+        height: 10.25641vw;
         width: 100%;
         border: none;
     }
 
     .mobile_tab_appeal_form_1
     {
-        height: 120px;
+        height: 30.769231vw;
         width: 100%;
 
         background: #EDEEFF;
@@ -73,7 +73,7 @@
 
     .mobile_tab_appeal_form
     {
-        height: 160px;
+        height: 41.025641vw;
     }
 
     .mobile_tab_name_form::placeholder, .mobile_tab_appeal_form_1::placeholder, .mobile_tab_email_form::placeholder, .mobile_tab_phone_form::placeholder
@@ -81,62 +81,62 @@
         font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 3.076923vw;
+        line-height: 4.102564vw;
 
         color: #5F6073;
 
-        padding: 20px 13px;
+        padding: 5.1282vw 3.33vw;
     }
 
     .mobile_tab_button
     {   
         background: #1B1C37;
-        border-radius: 10px;
+        border-radius: 2.564102vw;
 
         width: 103%;
 
         font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 4.615384vw;
+        line-height: 5.897435vw;
         text-align: center;
 
         color: #FFFFFF;
 
-        padding: 8.5px 85px;
+        padding: 2.179487vw 21.794872vw;
 
-        margin-top: 20px;
-        margin-bottom: 60px;
+        margin-top: 5.1282vw;
+        margin-bottom: 15.38462vw;
     }
 
     .mobile_link_1, .mobile_link_2, .mobile_link_3, .mobile_link_4, .mobile_link_5, .mobile_link_6, .mobile_link_7
     {
-        margin: 8px 0;
+        margin: 2.051283vw 0;
 
-        height: 14px;
-        width: 14px;
+        height: 3.589743vw;
+        width: 3.589743vw;
     }
 
     .mobile_link_1
     {
-        margin-left: 20px;
-        margin-right: 10px;
+        margin-left: 5.1282vw;
+        margin-right: 2.564102vw;
     }
 
     .mobile_link_3
     {
-        margin: 8px 13px;
+        margin: 2.051283vw 3.33vw;
     }
 
     .mobile_link_5
     {
-        margin: 8px 10px;
+        margin: 2.051283vw 2.564102vw;
     }
 
     .mobile_link_7
     {
-        margin-left: 11.6px;
+        margin-left: 2.974359vw;
     }
 }
