@@ -1,0 +1,94 @@
+.all_str_2
+{
+    background-image: url(img/bg_2.jpg);
+}
+
+.header_2, .block_1_header, .block_1_text, .block_2_header, .block_2_text, .block_3_header, .block_3_text
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.block_1_text, .block_2_text, .block_3_text
+{    
+    font-weight: 400;
+    font-size: 1.9845vw;
+    line-height: 2.9765vw;
+    text-align: justify;
+
+    color: #5F6073;
+}
+
+.block_1_text, .block_3_text
+{
+    padding-right: 6.61376vw;
+    padding-left: 52vw;
+}
+
+.block_1_header, .block_2_header, .block_3_header
+{
+    font-weight: 600;
+    font-size: 3.307vw;
+    line-height: 4.961vw;
+    
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.block_1_header, .block_3_header
+{
+    text-align: right;
+}
+
+.header_2
+{
+    padding-top: 5.953vw;
+    padding-left: 25.794vw;
+    
+    font-weight: 600;
+    font-size: 3.9686vw;
+    line-height: 7.937vw;
+
+    background: linear-gradient(90deg, #82E80C 0%, #3EC31E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.block_1_header
+{
+    padding-right: 6.614vw;
+    padding-top: 3vw;
+
+    background: linear-gradient(89.98deg, #4FCD1A 21.95%, #3DC31E 102.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_1_text
+{
+    padding-top: 2.77778vw;
+    padding-bottom: 6.019vw;
+}
+
+.block_2_header
+{
+    padding-top: 7.937vw;
+    padding-left: 6.614vw;
+    padding-right: 54.2328vw;
+    
+    text-align: justify;
+
+    background: linear-gradient(90deg, #35BE1F -3.54%, #6DD80D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_2_text
+{
+    padding-left: 6.614vw;
+    padding-top: 2.91005vw;
+    padding-right: 54.2328vw;
+    padding-bottom: 5.35714vw;
+}
