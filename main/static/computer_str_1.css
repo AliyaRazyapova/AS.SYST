@@ -222,3 +222,18 @@
     border-right: 0.165344vw solid #FFFFFF !important;
     transform: rotate(45deg);
 }
+
+.results_header_main
+{
+    font-weight: 600;
+    font-size: 1.14551vw;
+    line-height: 1.719575vw;
+
+    color: #FF9900;
+    
+    margin-left: 75.331vw;
+    margin-top: 1.521165vw;
+    margin-bottom: 1.521165vw;
+    
+    display: none;
+}
