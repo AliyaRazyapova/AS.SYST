@@ -1,6 +1,6 @@
 .content_3_header_line
 {
-    width: 1230px;
+    width: 81.349206vw;
 }
 
 .content_3_main
@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     
-    margin-bottom: 150px;
+    margin-bottom: 9.920635vw;
 }
 
 .content_3_1, .content_3_2, .content_3_3
@@ -16,23 +16,23 @@
     font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 0.9920635vw;
+    line-height: 1.190476vw;
 
     text-align: left;
     
     color: rgba(0, 0, 0, 0.48);
     
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 10px;
+    border-radius: 0.661376vw;
     background: #FFFFFF;
     
-    padding: 13px 0 12px 10px;
-    width: 270px;
+    padding: 0.8597884vw 0 0.793651vw 0.661376vw;
+    width: 17.857143vw;
 }
 
 .content_3_2
 {
-    margin-left: 30px;
-    margin-right: 390px;
+    margin-left: 1.984126vw;
+    margin-right: 25.793651vw;
 }
