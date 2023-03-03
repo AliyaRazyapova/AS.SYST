@@ -11,7 +11,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.content_2_one
+.content_2_one, .content_2_two, .content_2_two_2_main
 {
     display: flex;
     flex-direction: row;
@@ -20,12 +20,6 @@
 .content_2_one
 {
     margin-bottom: 1.984126vw;
-}
-
-.content_2_two
-{
-    display: flex;
-    flex-direction: row;
 }
 
 .content_2_two_1_header
@@ -78,12 +72,6 @@
 .content_2_two_text_header
 {
     padding-bottom: 1.984126vw;
-}
-
-.content_2_two_2_main
-{
-    display: flex;
-    flex-direction: row;
 }
 
 .content_2_two_2_header
