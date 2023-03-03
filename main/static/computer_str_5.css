@@ -1,0 +1,182 @@
+.all_str_5
+{
+    margin-left: 6.61376vw;
+}
+
+.header_5
+{
+    margin-top: 5.95238vw;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.968255vw;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #35BE1F;
+}
+
+.text_5
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.98413vw; 
+    text-align: justify;
+    margin-right: 12.23545vw;
+    
+    color: #5F6073;
+}
+
+.text_5_1
+{
+    margin-top: 3.968255vw;
+}
+
+.text_5_2
+{
+    margin-top: 1.98413vw;
+}
+
+.content_5
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.img_5
+{
+    width: 31.61375vw;
+}
+
+.tab_name_email, .tab_appeal_phone
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.tab_name_header, .tab_appeal_header, .tab_email_header, .tab_phone_header
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5873vw;
+
+    color: #000000;
+}
+
+.tab_name_header, .tab_email_header
+{
+    margin-top: 3.968255vw;
+}
+
+.tab_email
+{
+    margin-left: 13.2275vw;
+}
+
+.tab_name_form, .tab_email_form, .tab_phone_form
+{    
+    background: #EDEEFF;
+    border-radius: 0.26455vw;
+  
+    margin-top: 0.992065vw;
+    height: 2.249vw;
+}
+
+.tab_name_form
+{
+    width: 41.733vw;
+}
+
+.tab_email_form, .tab_phone_form
+{
+    width: 32.474vw;
+}
+
+.tab_name_form::placeholder, .tab_email_form::placeholder,
+.tab_phone_form::placeholder,
+.tab_appeal_form::placeholder
+{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.79365vw;
+
+    color: #5F6073;    
+    padding-left: 1.98413vw;
+}
+
+.tab_appeal_form
+{
+    margin-top: 0.992065vw;
+    padding-top: 0.72751vw;
+    width: 32.474vw;
+    min-height: 13.09525vw;
+    max-height: 13.09525vw;
+
+    background: #EDEEFF;
+    border-radius: 0.26455vw;
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+.tab_appeal_header, .tab_phone_header
+{
+    margin-top: 2.6455vw;
+}
+
+.tab_phone_button
+{
+    margin-left: 22.4868vw;
+    margin-bottom: 7.9365vw;
+}
+
+.link_1, .link_2, .link_3, .link_4, .link_5, .link_6, .link_7
+{
+    margin-top: 0.462963vw;
+    margin-bottom: 0.595238vw;
+    
+    height: 0.925925vw;
+    width: 0.925925vw;
+}
+
+.link_1
+{
+    margin-left: 1.98413vw;
+}
+
+.link_2, .link_4, .link_5, .link_6, .link_7
+{
+    margin-left: 0.661376vw;   
+}
+
+.link_3
+{
+    margin-left: 0.85979vw;
+}
+
+.tab_button
+{    
+    width: 32.474vw;
+    height: 2.36111vw;
+    margin-top: 9.8545vw;
+
+    background: #1B1C37;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.828155vw;
+    color: #EDEEFF;
+}
+
+.img_5
+{
+    margin-right: 6.61376vw;
+}
