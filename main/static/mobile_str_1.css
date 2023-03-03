@@ -1,11 +1,15 @@
-    .mobile_header{
+@media screen and (max-width:710px)
+{
+    .mobile_header
+    {
         display: flex;
         flex-direction: row;
         
         background: linear-gradient(90deg, #82E80D 0%, #3DC21F 100%);
     }
     
-    .mobile_home{
+    .mobile_home
+    {
         width: 2.88462vw;
         height: 3.20514vw;
         
@@ -14,7 +18,8 @@
         margin-bottom: 3.14103vw;
     }
     
-    .mobile_header_logo_img{
+    .mobile_header_logo_img
+    {
         width: 3.846153vw;
         height: 3.846153vw;
         
@@ -23,13 +28,15 @@
         margin-bottom: 2.820512vw;
     }
     
-    .mobile_header_logo_img_1, .mobile_header_logo_img_2, .mobile_header_logo_img_3{
+    .mobile_header_logo_img_1, .mobile_header_logo_img_2, .mobile_header_logo_img_3
+    {
         background: linear-gradient(90deg, #FFFFFF 0%, #ECEBEB 100%);
         
         border-radius: 50%;
     }
     
-    .mobile_header_logo_img_1{
+    .mobile_header_logo_img_1
+    {
         width: 1.7256411vw;
         height: 1.7256411vw;
         
@@ -37,7 +44,183 @@
         margin-top: 0.2794871vw;
     }
     
-    .mobile_header_logo_img_2{
+    .mobile_header_logo_img_2
+    {
         width: 1.061vw;
         height: 1.061vw;
         
+        margin-left: 0.4846153vw;
+        margin-top: 0.820512vw;
+    }
+    
+    .mobile_header_logo_img_3
+    {
+        width: 0.9vw;
+        height: 0.9vwx;
+        
+        margin-left: 2.2128205vw;
+        margin-top: -0.51282vw;
+    }
+    
+    .mobile_header_logo_text
+    {
+        font-family: 'Sofia Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.102564vw;
+        line-height: 4.871794vw;
+        text-align: center;
+
+        color: #FFFFFF;
+        
+        margin-top: 2.307692vw;
+        margin-left: 1.282051vw;
+        margin-bottom: 2.051283vw;
+        margin-right: 40vw;
+    }
+    
+    .mobile_content_1_header
+    {
+        width: 100%;
+    }
+    
+    .mobile_content_1_text_1
+    {
+        display: flex;
+        flex-direction: row;
+        
+        background: linear-gradient(90deg, #82E80D 0%, #3DC21F 100%);
+        border-radius: 5.1282vw;
+        
+        margin-left: 7.692307vw;
+        margin-right: 5.641025vw;
+    }
+    
+    .mobile_content_1_text_1_img
+    {
+        height: 6.410256vw;
+        width: 6.410256vw;
+        
+        margin-top: 5.76923vw;
+        margin-left: 5.76923vw;
+    }
+    
+    .mobile_content_1_text_1_text
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.589743vw;
+
+        text-align: justify;
+
+        color: #FFFFFF;
+
+        margin-left: 5.76923vw;
+        margin-top: 5.1282vw;
+        margin-right: 5.1282vw;
+        margin-bottom: 5.1282vw;
+    }
+    
+    .mobile_content_1_text_2
+    {
+        margin-top: 5.1282vw;
+        margin-left: 7.692307vw;
+        margin-right: 5.384615vw;
+        
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.589743vw;
+
+        text-align: justify;
+
+        color: #5F6073;
+    }
+    
+    .mobile_content_1_img
+    {
+        width: 100%;
+    }
+    
+    .mobile_content_1_text_3
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.615384vw;
+
+        text-align: center;
+
+        color: #5F6073;
+    }
+    
+    .mobile_content_1_button
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mobile_content_1_button_content
+    {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+        background: #1B1C37;
+        border-radius: 3.076923vw;
+        
+        margin-left: 7.692307vw;
+        margin-top: 6.153846vw;
+        margin-right: 7.692307vw;
+    }
+
+    .mobile_content_1_button_content_text
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.615384vw;
+        line-height: 5.897435vw;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+        margin-left: 7.307692vw;
+        margin-top: 2.179487vw;
+        margin-bottom: 2.179487vw;
+    }
+
+    .mobile_right-arrow
+    {
+        position: relative;
+        width: 5.1282vw;
+        height: 5.1282vw;
+        background-color: #1B1C37;
+        border-radius: 50%;
+        cursor: pointer;
+        
+        border: 0.641025vw solid #FFFFFF;
+        
+        margin-right: 7.820512vw;
+        margin-left: 7.948717vw;
+    }
+
+    .mobile_right-arrow::before
+    {
+        position: absolute;
+        content: '';
+        left: 35%;
+        top: 35%;
+        Width: 0.9025641vw;
+        Height: 0.9025641vw;
+        border-top: 0.641025vw solid #FFFFFF
+     !important;
+        border-right: 0.641025vw solid #FFFFFF !important;
+        transform: rotate(45deg);
+    }
+}
