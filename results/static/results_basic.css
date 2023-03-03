@@ -162,7 +162,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     
     margin-top: 3.505291vw;
-    margin-right: 63.6164021vw;
+    margin-right: 61.6164021vw;
     margin-bottom: 1.984126vw;
     
     padding-top: 0.43vw;
@@ -183,7 +183,7 @@
 
 .content_1_header_text, .content_2_header_text
 {
-    font-family: 'Sen';
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.322751vw;
