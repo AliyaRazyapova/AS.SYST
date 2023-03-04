@@ -189,7 +189,8 @@
     .mobile_str_5
     {
         background-image: url(img/mobile_bg_3.png);
-        background-position: 40% 40%;
         background-repeat: no-repeat;
+        background-position: 40% 40%;
+        background-size: 300.102564vw;
     }
 }

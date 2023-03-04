@@ -259,7 +259,8 @@
     .mobile_content_2
     {
         background-image: url(img/mobile_bg_1.png);
-        background-position: 40%;
         background-repeat: no-repeat;
+        background-size: 361.025641vw 361.025641vw;
+        background-position: 40% 50%;
     }
 }
