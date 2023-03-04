@@ -234,7 +234,6 @@ div#content_4_two_three
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    margin-left: 34.92065vw;
 }
 
 .content_4_two_text_1
@@ -305,10 +304,11 @@ div#content_4_two_three
     background: #50CD19;
     border-radius: 1.32275vw;
     
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.190475vw;
+    text-decoration: none;
 
     display: flex;
     justify-content: center;

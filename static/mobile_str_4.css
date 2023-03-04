@@ -106,4 +106,123 @@
         margin-top: 15.38462vw;
         margin-left: 31.282051vw;
     }
+    
+    
+    div#mobile_content_4_two_three
+    {
+        position: relative;
+
+        background: #1B1C37;
+        border-radius: 1.98413vw;
+    }.mobile_content_4_two
+    {
+        position: absolute;
+        top: 0.00661376vw;
+    }
+    
+    .mobile_img_pc_4_2
+    {
+        display: flex;
+        padding: 10px;
+        width: 300px;
+        height: 296px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .mobile_content_4_two_text_1, .mobile_content_4_two_text_2, .mobile_content_4_two_text_3
+    {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .mobile_content_4_two_text_1
+    {
+        font-size: 14px;
+
+        color: #50CD19;
+
+        margin-top: 32.19575vw;
+        margin-left: 24.92065vw;
+    }
+
+    .mobile_content_4_two_text_2, .mobile_content_4_two_text_3
+    {
+        color: #FFFFFF;
+    }
+
+    .mobile_content_4_two_text_2
+    {
+        font-size: 10px;
+
+        margin-left: 28.37565vw;
+        margin-top: 2vw;
+    }
+
+    .mobile_content_4_two_text_3
+    {
+        font-size: 10px;
+
+        margin-top: 15.9365vw;    
+        margin-left: 32.6905vw;
+    }
+
+    .mobile_content_4_two_three
+    {
+        margin-top: 3.968255vw;
+        margin-left: 6.61376vw;
+        margin-right: 6.61376vw;
+        margin-bottom: 5.95238vw;    
+    }
+
+    div#mobile_content_4_two_three
+    {
+        position: relative;
+
+        background: #1B1C37;
+        border-radius: 1.98413vw;
+    }.mobile_content_4_three
+    {
+        position: absolute;
+        top: 0.00661376vw;
+    }
+
+    .mobile_content_4_three_text
+    {
+        font-family: 'Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+
+        color: #FFFFFF;  
+
+        margin-left: 20.24075vw;
+        margin-top: 34.2619vw;
+    }
+
+    .mobile_content_4_three_button
+    {
+        background: #50CD19;
+        border-radius: 1.32275vw;
+
+        font-family: 'Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #FFFFFF;
+
+        margin-left: 25.23015vw;
+        margin-top: 5.18254vw;
+
+        width: 37.659vw;
+        height: 5.9685vw;
+    }
 }
