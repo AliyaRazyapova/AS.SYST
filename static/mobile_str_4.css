@@ -123,9 +123,9 @@
     .mobile_img_pc_4_2
     {
         display: flex;
-        padding: 10px;
-        width: 300px;
-        height: 296px;
+        padding: 3.589743vw;
+        width: 75.897436vw;
+        height: 75.897436vw;
         justify-content: center;
         align-items: center;
     }
@@ -140,7 +140,7 @@
 
     .mobile_content_4_two_text_1
     {
-        font-size: 14px;
+        font-size: 3.589743vw;
 
         color: #50CD19;
 
@@ -155,7 +155,7 @@
 
     .mobile_content_4_two_text_2
     {
-        font-size: 10px;
+        font-size: 3.589743vw;
 
         margin-left: 28.37565vw;
         margin-top: 2vw;
@@ -163,7 +163,7 @@
 
     .mobile_content_4_two_text_3
     {
-        font-size: 10px;
+        font-size: 3.589743vw;
 
         margin-top: 15.9365vw;    
         margin-left: 32.6905vw;
@@ -194,7 +194,7 @@
         font-family: 'Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 3.589743vw;
 
         color: #FFFFFF;  
 
@@ -210,7 +210,7 @@
         font-family: 'Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 10px;
+        font-size: 2.564102vw;
         text-decoration: none;
 
         display: flex;
