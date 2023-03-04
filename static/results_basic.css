@@ -16,6 +16,7 @@
 
 .text_logo, .FAQ_header, .main_header, .results_header{
     position: absolute;
+    text-decoration: none;
     
     font-family: 'Poppins', sans-serif;
     font-style: normal;
