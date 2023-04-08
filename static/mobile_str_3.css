@@ -1,5 +1,7 @@
 @media screen and (max-width:710px)
 {
+    @import url('styles.css');
+
     .mobile_header_3_circle_1, .mobile_header_3_circle_2, .mobile_header_3_circle_3, .mobile_header_3_circle_4, .mobile_header_3_circle_5, .mobile_header_3_circle_6, .mobile_header_3_circle_7, .mobile_header_3_circle_8, .mobile_header_3_circle_9, .mobile_header_3_circle_10, .mobile_header_3_circle_11, .mobile_header_3_circle_12
     {
         transform: rotate(-180deg);
@@ -124,7 +126,7 @@
     
     .mobile_header_3_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.153846vw;
@@ -140,7 +142,7 @@
     
     .mobile_content_3_1_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
@@ -380,7 +382,7 @@
     
     .mobile_content_3_2_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
@@ -588,7 +590,7 @@
     
     .mobile_content_3_3_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
@@ -836,7 +838,7 @@
     
     .mobile_content_3_4_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-weight: 700;

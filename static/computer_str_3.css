@@ -1,8 +1,11 @@
+@import url('styles.css');
+
 .block_3_header
 {
     padding-right: 6.614vw;
     padding-top: 3.25vw;
     
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 3.306875vw;
     line-height: 4.96032vw;
@@ -29,7 +32,7 @@
     padding-left: 17.5926vw;
     padding-top: 5.95238vw;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 3.968255vw;
@@ -46,7 +49,7 @@
 }
 
 .block_3_text_1, .block_3_text_2, .block_3_text_3, .block_3_text_4{
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsMedium, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.6vw;

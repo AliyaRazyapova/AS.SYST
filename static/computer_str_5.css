@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .all_str_5
 {
     margin-left: 6.61376vw;
@@ -7,7 +9,7 @@
 {
     margin-top: 5.95238vw;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 3.968255vw;
@@ -21,7 +23,7 @@
 
 .text_5
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsRegular, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.98413vw; 
@@ -61,7 +63,7 @@
 
 .tab_name_header, .tab_appeal_header, .tab_email_header, .tab_phone_header
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5873vw;
@@ -102,7 +104,7 @@
 .tab_phone_form::placeholder,
 .tab_appeal_form::placeholder
 {
-    font-family: "Poppins", sans-serif;
+    font-family: PoppinsLight, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 0.79365vw;
@@ -169,7 +171,7 @@
 
     background: #1B1C37;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.828155vw;

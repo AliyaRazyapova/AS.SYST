@@ -1,16 +1,19 @@
+@import url('styles.css');
+
 .all_str_2
 {
     background-image: url(img/bg_2.jpg);
 }
 
-.header_2, .block_1_header, .block_1_text, .block_2_header, .block_2_text, .block_3_header, .block_3_text
+.header_2, .block_1_header, .block_2_header, .block_3_header
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
 }
 
 .block_1_text, .block_2_text, .block_3_text
 {    
+    font-family: PoppinsRegular, 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.9845vw;
     line-height: 2.9765vw;

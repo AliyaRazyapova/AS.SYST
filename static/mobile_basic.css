@@ -1,5 +1,7 @@
 @media screen and (max-width:710px)
 {
+    @import url('styles.css');
+    
     .all{
         display: none;
     }
@@ -21,7 +23,7 @@
     {
         margin-left: 5.1282vw;
 
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 2.051283vw;

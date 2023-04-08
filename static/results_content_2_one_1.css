@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .content_2_one_1
 {
     background: #FFFFFF;
@@ -38,7 +40,7 @@
 
 .content_2_one_1_first_header, .content_2_one_1_second_header
 {
-    font-family: 'Sen', sans-serif;
+    font-family: SenBold, 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.9920635vw;
@@ -75,7 +77,7 @@
 
 .content_2_one_1_second_content_proc
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: RobotoMedium, 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.9920635vw;
@@ -177,7 +179,7 @@
     margin-left: 0.9920635vw;
     width: 11.56415344vw;
     
-    font-family: 'Roboto', sans-serif;
+    font-family: RobotoMedium, 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.9920635vw;

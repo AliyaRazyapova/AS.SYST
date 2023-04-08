@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .all_str_1
 {
     background-image: url(img/bg_1.jpg);
@@ -21,20 +23,21 @@
     border-radius: 0.992065vw;
 }
 
-.text_logo, .FAQ_header, .main_header, .results_header_main
+.FAQ_header, .main_header, .results_header_main
 {
     position: absolute;
-    
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
 }
 
 .text_logo
 {
+    position: absolute;
+    
     margin-left: 7.8704vw;
     margin-top: 1.65344vw;
     margin-bottom: 1.65344vw;
     
+    font-family: PoppinsMedium, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 1.32275vw;
     line-height: 1.98413vw;
@@ -47,6 +50,8 @@
     margin-top: 1.521165vw;
     margin-bottom: 1.521165vw;
     
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
     line-height: 1.719575vw;
@@ -60,6 +65,8 @@
     margin-top: 1.521165vw;
     margin-bottom: 1.521165vw;
     
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
     line-height: 1.719575vw;
@@ -126,7 +133,7 @@
     margin-top: 6.61378vw;
     margin-right: 57%;
     
-    /*font-family: 'Poppins', sans-serif;*/
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 6.61377vw;
@@ -145,7 +152,7 @@
 {
     margin-right: 57%;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsRegular, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.32275vw;
@@ -185,7 +192,7 @@
 
 .content_button_text
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5873vw;
@@ -225,6 +232,8 @@
 
 .results_header_main
 {
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
     line-height: 1.719575vw;

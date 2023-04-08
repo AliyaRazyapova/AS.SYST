@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .header{
     padding-top: 3%;    
 }
@@ -17,9 +19,6 @@
 .text_logo, .FAQ_header, .main_header, .results_header{
     position: absolute;
     text-decoration: none;
-    
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
 }
 
 .text_logo
@@ -28,6 +27,8 @@
     margin-top: 1.65344vw;
     margin-bottom: 1.65344vw;
     
+    font-family: PoppinsMedium, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 1.32275vw;
     line-height: 1.98413vw;
@@ -37,6 +38,8 @@
 
 .FAQ_header, .main_header
 {   
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
     line-height: 1.719575vw;
@@ -62,6 +65,8 @@
 
 .results_header
 {
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
     line-height: 1.719575vw;
@@ -125,7 +130,7 @@
 .footer_text_1, .footer_text_2{
     margin-left: 6.61376vw;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.992065vw;
@@ -149,7 +154,7 @@
 
 .content_header
 {
-    font-family: 'Sen', sans-serif;
+    font-family: SenBold, 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.322751vw;

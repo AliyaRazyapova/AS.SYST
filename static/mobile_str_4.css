@@ -1,8 +1,10 @@
 @media screen and (max-width:710px)
 {
+    @import url('styles.css');
+
     .mobile_header_4
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.153846vw;
@@ -40,7 +42,7 @@
     }
 
     .mobile_content_4_one_1_text_1{    
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
@@ -80,7 +82,6 @@
 
     .mobile_content_4_one_2_header, .mobile_content_4_one_2_text, .mobile_content_4_one_3
     {
-        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         line-height: 5.1282vw;
         text-align: center;
@@ -91,12 +92,14 @@
 
     .mobile_content_4_one_2_header
     {
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-weight: 700;
         font-size: 5.1282vw;
     }
 
     .mobile_content_4_one_2_text, .mobile_content_4_one_3
     {
+        font-family: PTSansRegular, 'PT Sans', sans-serif;
         font-weight: 400;
         font-size: 3.589743vw;
     }
@@ -133,7 +136,7 @@
 
     .mobile_content_4_two_text_1, .mobile_content_4_two_text_2, .mobile_content_4_two_text_3
     {
-        font-family: 'Poppins', sans-serif;
+        font-family: PoppinsSemiBold, 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 600;
     }
@@ -191,7 +194,7 @@
 
     .mobile_content_4_three_text
     {
-        font-family: 'Sans', sans-serif;
+        font-family: SofiaSansSemiBold, 'Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 3.589743vw;
@@ -207,7 +210,7 @@
         background: #50CD19;
         border-radius: 1.32275vw;
 
-        font-family: 'Sans', sans-serif;
+        font-family: SofiaSansSemiBold, 'Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 2.564102vw;

@@ -1,5 +1,7 @@
 @media screen and (max-width:710px)
 {
+    @import url('styles.css');
+
     .mobile_header
     {
         display: flex;
@@ -64,7 +66,7 @@
     
     .mobile_header_logo_text
     {
-        font-family: 'Sofia Sans', sans-serif;
+        font-family: SofiaSansBold, 'Sofia Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.102564vw;
@@ -107,7 +109,7 @@
     
     .mobile_content_1_text_1_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
@@ -128,7 +130,7 @@
         margin-left: 7.692307vw;
         margin-right: 5.384615vw;
         
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansRegular, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 3.589743vw;
@@ -145,7 +147,7 @@
     
     .mobile_content_1_text_3
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.615384vw;
@@ -181,7 +183,7 @@
 
     .mobile_content_1_button_content_text
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.615384vw;

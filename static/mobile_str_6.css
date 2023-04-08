@@ -1,5 +1,7 @@
 @media screen and (max-width:710px)
 {
+    @import url('styles.css');
+    
     .mobile_str_6
     {
         margin: 0 7.692307vw;
@@ -7,8 +9,6 @@
 
     .mobile_6_header, .mobile_6_content_text
     {
-        font-family: 'PT Sans', sans-serif;
-        font-style: normal;
         line-height: 5.1282vw;
 
         text-align: justify;
@@ -18,12 +18,16 @@
 
     .mobile_6_header
     {
+        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-style: normal;
         font-weight: 700;
         font-size: 2.974359vw;
     }
 
     .mobile_6_content_text
     {
+        font-family: PTSansRegular, 'PT Sans', sans-serif;
+        font-style: normal;
         font-weight: 400;
         font-size: 4.102564vw;
 
@@ -34,7 +38,7 @@
 
     .mobile_tab_header
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.615384vw;
@@ -78,7 +82,7 @@
 
     .mobile_tab_name_form::placeholder, .mobile_tab_appeal_form_1::placeholder, .mobile_tab_email_form::placeholder, .mobile_tab_phone_form::placeholder
     {
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansRegular, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 3.076923vw;
@@ -96,7 +100,7 @@
 
         width: 103%;
 
-        font-family: 'PT Sans', sans-serif;
+        font-family: PTSansBold, 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.615384vw;

@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .content_3_header_line
 {
     width: 81.349206vw;
@@ -13,7 +15,7 @@
 
 .content_3_1, .content_3_2, .content_3_3
 {
-    font-family: 'Sen', sans-serif;
+    font-family: SenBold, 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.9920635vw;

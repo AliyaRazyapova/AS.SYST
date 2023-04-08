@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 .content_1_header_line
 {
     width: 64.8809524vw;
@@ -5,7 +7,7 @@
 
 .content_1_main_header, .content_1_main_video_text
 {
-    font-family: 'Sen', sans-serif;
+    font-family: SenBold, 'Sen', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.9920635vw;
@@ -51,13 +53,13 @@
 
 .content_1_main_text_name_2, .content_1_main_text_format_2, .content_1_main_text_length_2, .content_1_main_text_resolutions_2, .content_1_main_text_size_2
 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: RobotoSlabRegular, 'Roboto Slab', sans-serif;
     font-weight: 400;
 }
 
 .content_1_main_text_name_1, .content_1_main_text_format_1, .content_1_main_text_length_1, .content_1_main_text_resolutions_1, .content_1_main_text_size_1
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: RobotoMedium, 'Roboto', sans-serif;
     font-weight: 500;
 }
 
@@ -74,7 +76,7 @@
 
 .content_1_main_text_PDF
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: RobotoRegular, 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.9920635vw;
