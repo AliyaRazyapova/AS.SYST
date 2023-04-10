@@ -222,10 +222,10 @@
 {
     position: absolute;
     content: '';
-    left: 32%;
-    top: 32%;
-    Width: 0.251984vw;
-    Height: 0.251984vw;
+    left: 22%;
+    top: 22%;
+    width: 0.551984vw;
+    height: 0.551984vw;
     border-top: 0.165344vw solid #FFFFFF
  !important;
     border-right: 0.165344vw solid #FFFFFF !important;
