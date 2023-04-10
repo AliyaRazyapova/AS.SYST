@@ -129,7 +129,7 @@
 
 .img_pc_4_2
 {
-    width: 84.3915vw;
+    width: 64.3915vw;
 }
 
 .content_4_one_1, .content_4_one_2
@@ -271,8 +271,8 @@ div#content_4_two_three
 .content_4_two_three
 {
     margin-top: 3.968255vw;
-    margin-left: 6.61376vw;
-    margin-right: 6.61376vw;
+    margin-left: 17.26190476vw;
+    margin-right: 17.1296vw;
     margin-bottom: 5.95238vw;    
 }
 
@@ -297,8 +297,8 @@ div#content_4_two_three
 
     color: #FFFFFF;  
     
-    margin-left: 28.24075vw;
-    margin-top: 17.2619vw;
+    text-align: center;
+    margin: 10.58201vw 21.3624339vw 0 21.3624339vw;
 }
 
 .content_4_three_button
@@ -318,8 +318,8 @@ div#content_4_two_three
 
     color: #FFFFFF;
     
-    margin-left: 33.73015vw;
-    margin-top: 2.18254vw;
+    margin-left: 23.809524vw;
+    margin-top: 0.3306878vw;
     
     width: 17.659vw;
     height: 3.9685vw;
