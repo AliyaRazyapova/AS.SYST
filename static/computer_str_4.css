@@ -106,7 +106,7 @@
 {
     width: 70.7675vw;
     
-    margin-left: 3.1746vw;
+    margin-left: 6.1746vw;
     margin-top: 1.488095vw;
 
     font-family: PoppinsSemiBold, 'Poppins', sans-serif;
@@ -144,41 +144,43 @@
 
 .content_4_one_1
 {
-    width: 60.45vw;
-    margin-left: 6.61376vw;
+    width: 694px;
+    margin-left: 17.26190476vw;
 }
 
 .content_4_one_2
 {
-    width: 24.339vw;
+    width: 279px;
     margin-left: 1.98413vw;
 }
 
 .content_4_one_2_header
 {
     width: 20.04vw;
-    margin-top: 1.98413vw;
-    margin-left: 2.314815vw;
+    margin-top: 47px;
+    margin-left: 26px;
+    padding-right: 66px;
 
     font-family: PoppinsBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.32275vw;
-
-    text-align: center;
+    line-height: 40px;
 
     color: #FFFFFF;
 }
 
 .content_4_one_2_text
 {
-    margin-left: 1.98413vw;
+    /* margin-left: 1.98413vw; */
     margin-top: 3.968255vw;
+    /* margin-right: 33px; */
     
     font-family: PoppinsBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.32275vw;
+    font-size: 16px;
+    line-height: 40px;
 
     text-align: left;
 
@@ -187,8 +189,8 @@
 
 .content_4_one_1_img
 {    
-    margin-top: 18.38625vw;
-    margin-left: 28.24075vw;
+    margin-top: 14.38625vw;
+    margin-left: 20.7vw;
 }
 
 .content_4_one_1_text_1, .content_4_one_1_text_2
@@ -197,24 +199,25 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1.32275vw;
+    line-height: 40px;
+    text-align: center;
 
     color: #FFFFFF;
 }
 
 .content_4_one_1_text_1
 {
-    margin-left: 25.5vw;
+    /* margin-left: 25.5vw; */
     margin-top: 1.98413vw;
-    
-    display: flex;
-    align-items: center;
+
     text-align: center;
     text-decoration-line: underline;
 }
 
 .content_4_one_1_text_2
 {
-    margin-left: 22.4868vw;
+    margin-left: 17.4868vw;
+    margin-right: 17.4868vw;
     margin-bottom: -9.1931vw;
 }
 
@@ -236,16 +239,20 @@ div#content_4_two_three
     font-family: PoppinsSemiBold, 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+
+    margin-left: 382px;
+    margin-right: 400px;
 }
 
 .content_4_two_text_1
 {
     font-size: 1.32275vw;
-    
+
     color: #50CD19;
     
-    margin-top: 17.19575vw;
-    margin-left: 34.92065vw;
+    margin-top: 170px;
 }
 
 .content_4_two_text_2, .content_4_two_text_3
@@ -256,16 +263,13 @@ div#content_4_two_three
 .content_4_two_text_2
 {
     font-size: 0.992065vw;
-    
-    margin-left: 36.37565vw;
 }
 
 .content_4_two_text_3
 {
     font-size: 1.0582vw;
     
-    margin-top: 7.9365vw;    
-    margin-left: 38.6905vw;
+    margin-top: 7vw;
 }
 
 .content_4_two_three
