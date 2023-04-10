@@ -42,18 +42,6 @@
 
 @font-face
 {
-    font-family: SofiaSansBold;
-    src: url('../static/styles/Sofia_Sans/SofiaSans-Bold.ttf');
-}
-
-@font-face
-{
-    font-family: SofiaSansSemiBold;
-    src: url('../static/styles/Sofia_Sans/SofiaSans-SemiBold.ttf');
-}
-
-@font-face
-{
     font-family: RobotoMedium;
     src: url('../static/styles/Roboto/Roboto-Medium.ttf');
 }
