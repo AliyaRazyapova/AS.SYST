@@ -26,6 +26,7 @@
 .FAQ_header, .main_header, .results_header_main
 {
     position: absolute;
+    text-decoration: none;
 }
 
 .text_logo
@@ -41,6 +42,7 @@
     font-weight: 500;
     font-size: 1.32275vw;
     line-height: 1.98413vw;
+    text-decoration: none;
 
     color: #1B1C37;
 }
