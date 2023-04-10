@@ -216,10 +216,10 @@
     {
         position: absolute;
         content: '';
-        left: 35%;
-        top: 35%;
-        Width: 0.9025641vw;
-        Height: 0.9025641vw;
+        left: 25%;
+        top: 25%;
+        Width: 1.9025641vw;
+        Height: 1.9025641vw;
         border-top: 0.641025vw solid #FFFFFF
      !important;
         border-right: 0.641025vw solid #FFFFFF !important;
