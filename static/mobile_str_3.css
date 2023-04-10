@@ -836,19 +836,10 @@
     
     .mobile_content_3_circle{
         background-image: url(img/mobile_bg_2.png);
-        background-position: 60% 355%;
+        background-position: 70% -68.461538vw;
         background-repeat: no-repeat;
-        background-size: 330vw 250vw;
+        background-size: 330vw 300vw;
         
         min-height: 230.769231vw;
-    }
-}
-
-@media screen and (max-width:415px)
-{
-    .mobile_content_3_circle
-    {
-        background-size: 250vw 250vw;
-        background-position: 60% -20vw;
     }
 }
