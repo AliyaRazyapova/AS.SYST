@@ -1,28 +1,5 @@
 @import url('styles.css');
 
-.block_3_header
-{
-    padding-right: 6.614vw;
-    padding-top: 3.25vw;
-    
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 3.306875vw;
-    line-height: 4.96032vw;
-    text-align: right;
-
-    background: linear-gradient(90.18deg, #35BE1F 0.12%, #6CD80E 102.61%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.block_3_text
-{
-    padding-top: 2.6455vw;
-    padding-bottom: 14.2196vw;
-    margin-bottom: 8vw;
-}
-
 .all_str_3
 {
     background-image: url(img/bg_3.png);
