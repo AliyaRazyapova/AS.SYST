@@ -52,19 +52,13 @@
     font-size: 3.9686vw;
     line-height: 7.937vw;
 
-    background: linear-gradient(90deg, #82E80C 0%, #3EC31E 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    color: #3ccb18;
 }
 
 .block_1_header
 {
     padding-right: 6.614vw;
-    background: linear-gradient(89.98deg, #4FCD1A 21.95%, #3DC31E 102.19%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #4dbe1c;
 }
 
 .block_1_text
