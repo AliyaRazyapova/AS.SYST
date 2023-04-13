@@ -1,7 +1,5 @@
 @media screen and (max-width:710px)
-{
-    @import url('styles.css');
-    
+{   
     .mobile_str_6
     {
         margin: 0 2vw 0 7.692307vw;
@@ -18,7 +16,7 @@
 
     .mobile_6_header
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.15vw;
@@ -26,7 +24,7 @@
 
     .mobile_6_content_text
     {
-        font-family: PTSansRegular, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 4.102564vw;
@@ -37,7 +35,7 @@
 
     .mobile_tab_header
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.615384vw;

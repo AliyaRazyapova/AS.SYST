@@ -1,5 +1,3 @@
-@import url('styles.css');
-
 .all_str_5
 {
     margin-left: 6.61376vw;
@@ -9,7 +7,7 @@
 {
     margin-top: 5.95238vw;
 
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 3.968255vw;
@@ -23,7 +21,7 @@
 
 .text_5
 {
-    font-family: PoppinsRegular, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.98413vw; 
@@ -65,7 +63,7 @@
 { 
     background: #1B1C37;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     color: #EDEEFF;

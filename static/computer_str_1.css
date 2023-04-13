@@ -1,5 +1,3 @@
-@import url('styles.css');
-
 .all_str_1
 {
     background-image: url(img/bg_1.jpg);
@@ -37,7 +35,7 @@
     margin-top: 1.65344vw;
     margin-bottom: 1.65344vw;
     
-    font-family: PoppinsMedium, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.32275vw;
@@ -52,7 +50,7 @@
     margin-top: 1.521165vw;
     margin-bottom: 1.521165vw;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
@@ -67,7 +65,7 @@
     margin-top: 1.521165vw;
     margin-bottom: 1.521165vw;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;
@@ -135,7 +133,7 @@
     margin-top: 6.61378vw;
     margin-right: 57%;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 6.61377vw;
@@ -144,17 +142,14 @@
     display: flex;
     align-items: center;
 
-    background: linear-gradient(99.94deg, #35BE1F 1.77%, #94F107 88.84%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #58da44;
 }
 
 .content_text_1, .content_text_2
 {
     margin-right: 57%;
 
-    font-family: PoppinsRegular, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.32275vw;
@@ -194,7 +189,7 @@
 
 .content_button_text
 {
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5873vw;
@@ -234,7 +229,7 @@
 
 .results_header_main
 {
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.14551vw;

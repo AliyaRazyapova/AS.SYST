@@ -1,5 +1,3 @@
-@import url('styles.css');
-
 .circles
 {
     display: flex;
@@ -109,7 +107,7 @@
     margin-left: 6.1746vw;
     margin-top: 1.488095vw;
 
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 3.968255vw;
@@ -161,7 +159,7 @@
     margin-left: 1.71958vw;
     padding-right: 4.36508vw;
 
-    font-family: PoppinsBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.32275vw;
@@ -174,7 +172,7 @@
 {
     margin-top: 3.968255vw;
     
-    font-family: PoppinsBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.058201vw;
@@ -193,7 +191,7 @@
 
 .content_4_one_1_text_1, .content_4_one_1_text_2
 {    
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.32275vw;
@@ -233,7 +231,7 @@ div#content_4_two_three
 
 .content_4_two_text_1, .content_4_two_text_2, .content_4_two_text_3
 {
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     text-align: center;
@@ -291,7 +289,7 @@ div#content_4_two_three
 
 .content_4_three_text
 {
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.98413vw;
@@ -307,7 +305,7 @@ div#content_4_two_three
     background: #50CD19;
     border-radius: 1.32275vw;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.190475vw;

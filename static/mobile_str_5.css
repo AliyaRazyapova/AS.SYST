@@ -1,7 +1,5 @@
 @media screen and (max-width:710px)
-{
-    @import url('styles.css');
-    
+{    
     .mobile_5_circle_0
     {
         padding: 10.25641vw;
@@ -143,7 +141,7 @@
 
     .mobile_5_header
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.153846vw;
@@ -156,7 +154,7 @@
 
     .mobile_5_content_text_1, .mobile_5_content_text_2
     {
-        font-family: PTSansRegular, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 3.589743vw;

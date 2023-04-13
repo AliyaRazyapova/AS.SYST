@@ -1,5 +1,3 @@
-@import url('styles.css');
-
 div
 {
     display: block;
@@ -33,7 +31,7 @@ div
 {
     margin-left: 6.61376vw;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.992065vw;

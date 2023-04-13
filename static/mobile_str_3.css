@@ -1,7 +1,5 @@
 @media screen and (max-width:710px)
 {
-    @import url('styles.css');
-
     .mobile_header_3_circle_1, .mobile_header_3_circle_2, .mobile_header_3_circle_3, .mobile_header_3_circle_4, .mobile_header_3_circle_5, .mobile_header_3_circle_6, .mobile_header_3_circle_7, .mobile_header_3_circle_8, .mobile_header_3_circle_9, .mobile_header_3_circle_10, .mobile_header_3_circle_11, .mobile_header_3_circle_12
     {
         transform: rotate(-180deg);
@@ -126,7 +124,7 @@
     
     .mobile_header_3_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.153846vw;
@@ -142,17 +140,13 @@
     
     .mobile_content_3_1_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
         text-align: justify;
         
-        background: linear-gradient(91.69deg, #82E80D -2.59%, #35BE1F 144.06%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: #31d118;
         
         margin-top: 9.230769vw;
         margin-left: 7.692307vw;
@@ -370,17 +364,13 @@
     
     .mobile_content_3_2_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
         text-align: right;
         
-        background: linear-gradient(90.23deg, #7AE410 -45.46%, #35BE1F 107.95%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: #31ce19;
         
         margin-top: -15.38462vw;
         margin-left: 30.769231vw;
@@ -578,16 +568,12 @@
     
     .mobile_content_3_3_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 3.589743vw;
 
-        background: linear-gradient(90.83deg, #82E80D -4.23%, #48C81D 144.19%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: #42d212;
         
         margin-top: 5.1282vw;
         margin-left: 7.692307vw;
@@ -816,19 +802,15 @@
     
     .mobile_content_3_4_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-weight: 700;
         font-size: 3.589743vw;
         text-align: right;
         
-        background: linear-gradient(90deg, #7EE60F -19.79%, #35BE1F 102.71%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        
+        color: #2fcb17;
+
         margin-top: -15.38462vw;
         margin-left: 30.769231vw;
         margin-right: 3.846153vw;

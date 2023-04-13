@@ -1,5 +1,3 @@
-@import url('styles.css');
-
 .block_2
 {
     margin-top: -5.6216932vw;
@@ -7,13 +5,13 @@
 
 .header_2, .block_1_header, .block_2_header, .block_3_header
 {
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 
 .block_1_text, .block_2_text, .block_3_text
 {    
-    font-family: PoppinsRegular, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.9845vw;
     line-height: 2.9765vw;
@@ -82,9 +80,7 @@
     
     text-align: justify;
 
-    background: linear-gradient(90deg, #35BE1F -3.54%, #6DD80D 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #5bb60c;
 }
 
 .block_2_text
@@ -99,15 +95,13 @@
 {
     padding-right: 6.614vw;
     
-    font-family: PoppinsSemiBold, 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 3.306875vw;
     line-height: 4.96032vw;
     text-align: right;
 
-    background: linear-gradient(90.18deg, #35BE1F 0.12%, #6CD80E 102.61%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #5bb60c;
 }
 
 .block_3_text

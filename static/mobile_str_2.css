@@ -1,10 +1,8 @@
 @media screen and (max-width:710px)
-{
-    @import url('styles.css');
-    
+{    
     .mobile_header_2
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 6.153846vw;
@@ -18,7 +16,7 @@
 
     .mobile_content_2_1_header, .mobile_content_2_2_header, .mobile_content_2_3_header
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 5.1282vw;
@@ -26,11 +24,7 @@
     
     .mobile_content_2_1_header
     {
-        background: linear-gradient(270deg, #FD3259 1.81%, #FF0031 93.98%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: #ff1b49;
         
         padding-top: 28.205vw;
         margin-left: 7.692307vw;
@@ -52,7 +46,7 @@
     
     .mobile_content_2_1_text, .mobile_content_2_2_text, .mobile_content_2_3_text
     {
-        font-family: PTSansBold, 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 4.102564vw;
