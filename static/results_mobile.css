@@ -175,6 +175,9 @@
     {
         display: flex;
         flex-direction: row;
+
+        align-items: right;
+        margin: 0 25px 0 auto;
     }
 
     .mobile_content_circle_1, .mobile_content_circle_2, .mobile_content_circle_3
@@ -201,11 +204,6 @@
         height: 290px;
 
         margin: 20px 0 0 25px;
-    }
-
-    .mobile_content_circles_1
-    {
-        margin-left: 150px;
     }
 
     .mobile_content_1_header
