@@ -5,12 +5,12 @@
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 4.09207vw;
+        line-height: 4.09207vw;
 
         color: #7C7B7B;
 
-        margin-top: 8px;
+        margin-top: 2.04604vw;
     }
 
     .mobile_content_2_content_1_2, .mobile_content_2_content_3_4, .mobile_content_2_content_5_6
@@ -21,7 +21,7 @@
 
     .mobile_content_2_content_1_2, .mobile_content_2_content_3_4, .mobile_content_2_content_5_6
     {
-        margin-top: 20px;
+        margin-top: 5.11509vw;
     }
 
     .mobile_content_2_content_1, .mobile_content_2_content_2, .mobile_content_2_content_3, .mobile_content_2_content_4, .mobile_content_2_content_5, .mobile_content_2_content_6
@@ -32,17 +32,17 @@
 
     .mobile_content_2_content_1, .mobile_content_2_content_3, .mobile_content_2_content_5
     {
-        width: 180px;
+        width: 46.03581vw;
     }
 
     .mobile_content_2_content_1_circle, .mobile_content_2_content_2_circle, .mobile_content_2_content_3_circle, .mobile_content_2_content_4_circle, .mobile_content_2_content_5_circle, .mobile_content_2_content_6_circle
     {
-        width: 21px;
-        height: 21px;
+        width: 5.37084vw;
+        height: 5.37084vw;
 
         border-radius: 50%;
 
-        margin: auto 15px auto 0;
+        margin: auto 3.83632vw auto 0;
         justify-content: center;
     }
 
@@ -51,13 +51,13 @@
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 4.09207vw;
+        line-height: 4.09207vw;
     }
 
     .mobile_content_2_content_1_circle
     {
-        border: 2px solid #FF784C;
+        border: 0.511509vw solid #FF784C;
     }
 
     .mobile_content_2_content_1_header
@@ -67,7 +67,7 @@
 
     .mobile_content_2_content_2_circle
     {
-        border: 2px solid #0077FF;
+        border: 0.511509vw solid #0077FF;
     }
 
     .mobile_content_2_content_2_header
@@ -77,7 +77,7 @@
 
     .mobile_content_2_content_3_circle
     {
-        border: 2px solid #D74CFA;
+        border: 0.511509vw solid #D74CFA;
     }
 
     .mobile_content_2_content_3_header
@@ -87,7 +87,7 @@
 
     .mobile_content_2_content_4_circle
     {
-        border: 2px solid #F76672;
+        border: 0.511509vw solid #F76672;
     }
 
     .mobile_content_2_content_4_header
@@ -97,7 +97,7 @@
 
     .mobile_content_2_content_5_circle
     {
-        border: 2px solid #7C7B7B;
+        border: 0.511509vw solid #7C7B7B;
     }
 
     .mobile_content_2_content_5_header
@@ -107,7 +107,7 @@
 
     .mobile_content_2_content_6_circle
     {
-        border: 2px solid #35BE1F;
+        border: 0.511509vw solid #35BE1F;
     }
 
     .mobile_content_2_content_6_header
