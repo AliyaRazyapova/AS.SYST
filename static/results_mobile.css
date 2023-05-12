@@ -81,7 +81,17 @@
         margin-top: 2.307692vw;
         margin-left: 1.282051vw;
         margin-bottom: 2.051283vw;
-        margin-right: 40vw;
+        margin-right: 118px;
+    }
+
+    .mobile_list
+    {
+        width: 9.5px;
+        height: 12.5px;
+
+        justify-content: center;
+        align-items: right;
+        margin: auto 13.5px auto auto;
     }
 
     .mobile_content
