@@ -1,0 +1,22 @@
+@media screen and (max-width:710px)
+{
+    .mobile_content_5_text
+    {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+
+        text-align: justify;
+
+        color: #7C7B7B;
+
+        margin-top: 23px;
+    }
+
+    .mobile_content_5_text_1
+    {
+        margin-bottom: 5px;
+    }
+}
