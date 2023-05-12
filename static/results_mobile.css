@@ -86,7 +86,7 @@
 
     .mobile_content
     {
-        margin-left: 25px;
+        margin: 0 0 20px 25px;
     }
 
     .mobile_content_header_circles
@@ -130,6 +130,34 @@
         border-radius: 5px;
 
         margin: 15px 0 15px 40px;
+    }
+
+    .mobile_footer
+    {
+        background: #1B1C37;
+    }
+
+    .mobile_footer_text
+    {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px;
+
+        color: #FFFFFF;
+
+        margin-left: 20px;
+    }
+
+    .mobile_footer_text_1
+    {
+        padding-top: 20px;
+    }
+
+    .mobile_footer_text_2
+    {
+        padding-bottom: 20px;
     }
 
     .mobile_content_circles
