@@ -203,3 +203,8 @@
     
     height: 0.2566137vw;
 }
+
+.mobile_header
+{
+    display: none;
+}
