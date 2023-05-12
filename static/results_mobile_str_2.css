@@ -28,8 +28,11 @@
     {
         display: flex;
         flex-direction: row;
+    }
 
-        width: 170px;
+    .mobile_content_2_content_1, .mobile_content_2_content_3, .mobile_content_2_content_5
+    {
+        width: 180px;
     }
 
     .mobile_content_2_content_1_circle, .mobile_content_2_content_2_circle, .mobile_content_2_content_3_circle, .mobile_content_2_content_4_circle, .mobile_content_2_content_5_circle, .mobile_content_2_content_6_circle
