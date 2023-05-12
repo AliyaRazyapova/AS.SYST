@@ -5,19 +5,19 @@
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 25px;
+        font-size: 3.58056vw;
+        line-height: 6.39386vw;
 
         text-align: justify;
 
         color: #7C7B7B;
 
-        margin: 23px 25px 0 0;
+        margin: 5.88235294vw 6.39386vw 0 0;
     }
 
     .mobile_content_5_text_1
     {
-        margin-bottom: 5px;
+        margin-bottom: 1.27877vw;
     }
 
     .mobile_content_5_header_em
@@ -38,6 +38,6 @@
         flex-direction: row;
 
         align-items: right;
-        margin: 0 25px 0 auto;
+        margin: 0 6.39386vw 0 auto;
     }
 }
