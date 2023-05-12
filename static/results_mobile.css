@@ -195,6 +195,14 @@
         margin-top: 1.322751vw;
     }
 
+    .diagramma
+    {
+        width: 290px;
+        height: 290px;
+
+        margin: 20px 0 0 25px;
+    }
+
     .mobile_content_circles_1
     {
         margin-left: 150px;
