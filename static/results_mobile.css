@@ -89,7 +89,7 @@
         margin-left: 25px;
     }
 
-    .mobile_content_1_header_circles
+    .mobile_content_header_circles
     {
         display: flex;
         flex-direction: row;
@@ -106,8 +106,6 @@
         display: flex;
 
         color: #35BE1F;
-
-        margin: 20px 0 0 0;
     }
 
     .mobile_content_line
@@ -150,9 +148,7 @@
         margin-left: 150px;
     }
 
-    /* .mobile_content */
-
-    .mobile_content_1_header
+    .mobile_content_header
     {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
