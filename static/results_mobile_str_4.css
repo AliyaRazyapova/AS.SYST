@@ -1,0 +1,49 @@
+@media screen and (max-width:710px)
+{
+    .mobile_content_4_content
+    {
+        margin-top: 15px;
+    }
+
+    .mobile_content_4_content_1
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile_content_4_content_img
+    {
+        height: 21px;
+    }
+
+    .mobile_content_4_content_img_1
+    {
+        width: 21px;
+    }
+
+    .mobile_content_4_content_img_2
+    {
+        width: 19px;
+    }
+
+    .mobile_content_4_content_text
+    {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+
+        display: flex;
+        align-items: center;
+
+        color: #35BE1F;
+
+        margin: 0 0 0 17px;
+    }
+
+    .mobile_content_4_content_text_1
+    {
+        margin-left: 20px;
+    }
+}
