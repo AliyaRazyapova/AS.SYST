@@ -1,0 +1,46 @@
+@media screen and (max-width:710px)
+{
+    .mobile_content_3_header_text
+    {
+        display: flex;
+        flex-direction: row;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+
+        color: #7C7B7B;
+    }
+
+    .mobile_content_3_text
+    {
+        margin: 0 25px 0 auto;
+        align-items: center;
+    }
+
+    .mobile_content_3_circle
+    {
+        border-radius: 50%;
+        border: 2px solid rgba(124, 123, 123, 0.65);
+
+        width: 22px;
+        height: 22px;
+        padding: 9px;
+    }
+
+    .mobile_content_3_content
+    {
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 15px;
+    }
+
+    .mobile_content_3_circle_1
+    {
+        margin: 0 25px 0 auto;
+        align-items: right;
+    }
+}
