@@ -1,0 +1,114 @@
+@media screen and (max-width:710px)
+{
+    .mobile_content_2_content_proc
+    {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+
+        color: #7C7B7B;
+
+        margin-top: 8px;
+    }
+
+    .mobile_content_2_content_1_2, .mobile_content_2_content_3_4, .mobile_content_2_content_5_6
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile_content_2_content_1_2, .mobile_content_2_content_3_4, .mobile_content_2_content_5_6
+    {
+        margin-top: 20px;
+    }
+
+    .mobile_content_2_content_1, .mobile_content_2_content_2, .mobile_content_2_content_3, .mobile_content_2_content_4, .mobile_content_2_content_5, .mobile_content_2_content_6
+    {
+        display: flex;
+        flex-direction: row;
+
+        width: 170px;
+    }
+
+    .mobile_content_2_content_1_circle, .mobile_content_2_content_2_circle, .mobile_content_2_content_3_circle, .mobile_content_2_content_4_circle, .mobile_content_2_content_5_circle, .mobile_content_2_content_6_circle
+    {
+        width: 21px;
+        height: 21px;
+
+        border-radius: 50%;
+
+        margin: auto 15px auto 0;
+        justify-content: center;
+    }
+
+    .mobile_content_2_content_1_header, .mobile_content_2_content_2_header, .mobile_content_2_content_3_header, .mobile_content_2_content_4_header, .mobile_content_2_content_5_header, .mobile_content_2_content_6_header
+    {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .mobile_content_2_content_1_circle
+    {
+        border: 2px solid #FF784C;
+    }
+
+    .mobile_content_2_content_1_header
+    {
+        color: #FF784C;   
+    }
+
+    .mobile_content_2_content_2_circle
+    {
+        border: 2px solid #0077FF;
+    }
+
+    .mobile_content_2_content_2_header
+    {
+        color: #0077FF;
+    }
+
+    .mobile_content_2_content_3_circle
+    {
+        border: 2px solid #D74CFA;
+    }
+
+    .mobile_content_2_content_3_header
+    {
+        color: #D74CFA;   
+    }
+
+    .mobile_content_2_content_4_circle
+    {
+        border: 2px solid #F76672;
+    }
+
+    .mobile_content_2_content_4_header
+    {
+        color: #F76672;
+    }
+
+    .mobile_content_2_content_5_circle
+    {
+        border: 2px solid #7C7B7B;
+    }
+
+    .mobile_content_2_content_5_header
+    {
+        color: #7C7B7B;   
+    }
+
+    .mobile_content_2_content_6_circle
+    {
+        border: 2px solid #35BE1F;
+    }
+
+    .mobile_content_2_content_6_header
+    {
+        color: #35BE1F;
+    }
+}

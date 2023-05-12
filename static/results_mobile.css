@@ -132,6 +132,17 @@
         margin: 15px 0 15px 40px;
     }
 
+    .mobile_content_line_2
+    {
+        width: 300px;
+        height: 1px;
+
+        background: rgba(124, 123, 123, 0.15);
+        border-radius: 5px;
+
+        margin: 20px 0 20px 40px;
+    }
+
     .mobile_footer
     {
         background: #1B1C37;
