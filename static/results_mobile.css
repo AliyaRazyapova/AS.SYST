@@ -5,7 +5,12 @@
         display: none;
     }
 
-   .mobile_header
+    .mobile
+    {
+        display: block;
+    }
+
+    .mobile_header
     {
         display: flex;
         flex-direction: row;
