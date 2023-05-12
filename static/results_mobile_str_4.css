@@ -2,7 +2,7 @@
 {
     .mobile_content_4_content
     {
-        margin-top: 15px;
+        margin-top: 3.83632vw;
     }
 
     .mobile_content_4_content_1
@@ -13,17 +13,17 @@
 
     .mobile_content_4_content_img
     {
-        height: 21px;
+        height: 5.37084vw;
     }
 
     .mobile_content_4_content_img_1
     {
-        width: 21px;
+        width: 5.37084vw;
     }
 
     .mobile_content_4_content_img_2
     {
-        width: 19px;
+        width: 4.85934vw;
     }
 
     .mobile_content_4_content_text
@@ -31,19 +31,19 @@
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 4.09207vw;
+        line-height: 4.09207vw;
 
         display: flex;
         align-items: center;
 
         color: #35BE1F;
 
-        margin: 0 0 0 17px;
+        margin: 0 0 0 4.347826vw;
     }
 
     .mobile_content_4_content_text_1
     {
-        margin-left: 20px;
+        margin-left: 5.11509vw;
     }
 }
