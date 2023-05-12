@@ -12,11 +12,32 @@
 
         color: #7C7B7B;
 
-        margin-top: 23px;
+        margin: 23px 25px 0 0;
     }
 
     .mobile_content_5_text_1
     {
         margin-bottom: 5px;
+    }
+
+    .mobile_content_5_header_em
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile_content_5_header
+    {
+        justify-content: center;
+        margin: auto 0 auto 0;
+    }
+
+    .mobile_content_5_em
+    {
+        display: flex;
+        flex-direction: row;
+
+        align-items: right;
+        margin: 0 25px 0 auto;
     }
 }
