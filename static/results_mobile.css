@@ -18,16 +18,6 @@
         background: linear-gradient(90deg, #82E80D 0%, #3DC21F 100%);
     }
     
-    .mobile_home
-    {
-        width: 2.88462vw;
-        height: 3.20514vw;
-        
-        margin-left: 4.32565vw;
-        margin-top: 2.88462vw;
-        margin-bottom: 3.14103vw;
-    }
-    
     .mobile_header_logo_img
     {
         width: 3.846153vw;
@@ -87,16 +77,6 @@
         margin-left: 1.282051vw;
         margin-bottom: 2.051283vw;
         margin-right: 30.17903vw;
-    }
-
-    .mobile_list
-    {
-        width: 2.42967vw;
-        height: 3.19693vw;
-
-        justify-content: center;
-        align-items: right;
-        margin: auto 3.45269vw auto auto;
     }
 
     .mobile_content
